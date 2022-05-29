@@ -20,6 +20,7 @@ a {
 
 a:hover {
   color: #73c5eb;
+  
   text-decoration: none;
 }
 
@@ -335,11 +336,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background-image:url("bg2.png");
+  background-repeat: repeat;
+  /* background: #37517e; */
 }
 #hero .container {
-  padding-top: 72px;
+  padding-top: 100px;
 }
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -417,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
